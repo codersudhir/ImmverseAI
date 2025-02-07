@@ -32,7 +32,7 @@ export default function Home() {
   ]
 
   return (
-    <main>
+    <main className=' w-100'>
       {/* Navigation */}
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-black ">
         <div className="container">
@@ -135,13 +135,13 @@ export default function Home() {
 
                 </div>
               </div>
-              <div className="col-md-8 d-flex flex-column align-items-center ">
-                <div className=" d-flex mx-auto mb-3 p-2 gap-2 gap-md-5   ">
+              <div className="col-md-8 d-flex flex-column align-items-center  ">
+                <div className=" d-flex mx-auto mb-3 p-2 gap-2 gap-md-5">
                   <Image src="https://s3-alpha-sig.figma.com/img/8d9b/d3f1/f8ad05cd104252f2839a63484815876b?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iE6HmrQeGpIWojNce3wQnQqFp7zzqxdbWgw~95hpAD5m5isqcJTMnWmtBrgY0z~Xfap05HQD~1jNB0~iZWiEkShUL6EDu39idk7Eh2P0eoQHFwYWfg9FlpMFaGfqPdEKDKd4E4JHySR9JNtB8y~N89tiVIl8hJ5OgTMR-sBjdYwPhcc0oHXGY5eSDJP0CjHv5gz6KvPap-3oQuIpELViEDdFFkyQt5pMt86sIN1O3vyQjO3SYZIrZXy9~cEOjLrSuZV7PCJy3H5cGmJBwHMDq2OG5eLnWGtZ794Ge5FNdnRgkQQOB33jBmXf8JtuWh7It9H2XJKB9iR67aWVxsPtBg__" alt="VR Man" width={300} height={400} className={`img-fluid custom-image vr-img-men`}
                   />
-                  <div className=' mx-auto flex flex-column p-2 align-items-center   text-start  mt-md-5 responsive-width-vr ' >
-                    <h2 className="fw-bold fs-4 text-uppercase mt-3">New Experience In Playing Game</h2>
-                    <p className="text-white">
+                  <div className=' mx-auto flex flex-column p-2 align-items-start  text-start  mt-md-5 responsive-width-vr d-none d-md-flex ' >
+                    <h2 className="fw-bold fs-4 text-uppercase mt-md-3">New Experience In Playing Game</h2>
+                    <p className="text-white ">
                       You can try playing the game with a new style and of course a more real feel, like you are the main
                       character in your game and adventure in this new digital world.
                     </p>
@@ -150,6 +150,14 @@ export default function Home() {
                 </div>
 
               </div>
+              <div className=' mx-auto flex flex-column p-2 align-items-center   text-start  mt-md-5 d-md-none  ' >
+                    <h2 className="fw-bold fs-6 text-uppercase mt-md-3">New Experience In Playing Game</h2>
+                    <p className="text-white ">
+                      You can try playing the game with a new style and of course a more real feel, like you are the main
+                      character in your game and adventure in this new digital world.
+                    </p>
+                    <button className="btn btn-primary px-4 py-2 mt-3" style={{ background: "linear-gradient(99.99deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%)" }}>Get it Now</button>
+                  </div>
             </div>
           </div>
 
