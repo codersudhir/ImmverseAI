@@ -110,8 +110,6 @@ body {
   }
 }
 
-
-
 .vr-img-women {
   position: relative;
   width: 300px;
@@ -205,9 +203,11 @@ body {
 .overlay-text p {
   font-size: 14px;
 }
+
 .display-4 {
   font-family: "Orbitron";
 }
+
 h2{
    font-family: "Orbitron";
 }
