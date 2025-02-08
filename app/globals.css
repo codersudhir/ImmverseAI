@@ -113,8 +113,9 @@ body {
   height: 400px;
   bottom: 100px;
   overflow: hidden;
-  background-color: #522d5b;
+  padding: 5px;
   clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 0 100%);
+  border: 2px solid #522d5b; /* Set transparent border */
 }
 
 .vr-img-men {
@@ -122,8 +123,9 @@ body {
   width: 300px;
   height: 400px;
   overflow: hidden;
-  background-color: #522d5b;
+  padding: 5px;
   clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 0 100%);
+  border: 2px solid #522d5b; /* Set transparent border */
 }
 
 .notch-border{
@@ -148,8 +150,6 @@ body {
     height: 400px;
     bottom: 0px;
     overflow: hidden;
-
-    background-color: #522d5b;
     clip-path: polygon(0 0, 80% 0, 100% 20%, 100% 100%, 0 100%);
   }
   .responsive-width{

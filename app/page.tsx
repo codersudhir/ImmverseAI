@@ -111,6 +111,12 @@ export default function Home() {
                   height={30}
                   alt="User 3"
                 />
+                <Image
+                  src="https://images.unsplash.com/photo-1738830986230-57029d6ef4f8?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  width={30}
+                  height={30}
+                  alt="User 3"
+                />
                 <span className="ms-2">400k people online</span>
               </div>
             </div>
@@ -129,15 +135,15 @@ export default function Home() {
           <div className=" text-white   d-flex justify-content-center align-items-center px-2 md:px-0" style={{ backgroundColor: '#000' }}>
             <div className="row align-items-center">
               <div className="col-md-4 d-flex flex-column align-items-center ">
-                <div className=" mb-3  p-2" >
-                  <Image src="https://s3-alpha-sig.figma.com/img/fd30/c5e0/16d7274d6ec591820573346a37e7e648?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KG4qJe-qdQcSEgbpwuMJuBHj7OOlDV~tq~VFK5jCqD5rd46AGPIGQv36EMd2PnyBfpSAVhTvmyxlO2Dy5lhKhRUpB9M-Zszyycy0poZVuX5r0FPDii5HAyiv~HZKhhvDvCC-sZ2LqHHTY4ilWZpqKNZJShDxvn3yC~s9R3Nn47k1WwcgLvQOnjVeGJTWY63jlEMYiSsARIi6w2v3Rtl1OFXTVTWbs7EMnuyDqRpEz-KJT~gnUs3T6C5OExLn27QEJOYNMl-csgNuzHJoF5kzlL8sYWHourd077XYO3CCuiINDBWHFZiUwA~3Xyv4CBI1c-2Lx4hWWGVo~NhADCnKNw__" alt="VR Woman" width={300} height={400} className="img-fluid custom-image  vr-img-women"
+                <div className=" mb-3 p-2" >
+                  <Image src="https://s3-alpha-sig.figma.com/img/fd30/c5e0/16d7274d6ec591820573346a37e7e648?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KG4qJe-qdQcSEgbpwuMJuBHj7OOlDV~tq~VFK5jCqD5rd46AGPIGQv36EMd2PnyBfpSAVhTvmyxlO2Dy5lhKhRUpB9M-Zszyycy0poZVuX5r0FPDii5HAyiv~HZKhhvDvCC-sZ2LqHHTY4ilWZpqKNZJShDxvn3yC~s9R3Nn47k1WwcgLvQOnjVeGJTWY63jlEMYiSsARIi6w2v3Rtl1OFXTVTWbs7EMnuyDqRpEz-KJT~gnUs3T6C5OExLn27QEJOYNMl-csgNuzHJoF5kzlL8sYWHourd077XYO3CCuiINDBWHFZiUwA~3Xyv4CBI1c-2Lx4hWWGVo~NhADCnKNw__" alt="VR Woman" width={300} height={400} className="img-fluid custom-image  vr-img-women "
                   />
 
                 </div>
               </div>
               <div className="col-md-8 d-flex flex-column align-items-center  ">
                 <div className=" d-flex mx-auto mb-3 p-2 gap-2 gap-md-5">
-                  <Image src="https://s3-alpha-sig.figma.com/img/8d9b/d3f1/f8ad05cd104252f2839a63484815876b?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iE6HmrQeGpIWojNce3wQnQqFp7zzqxdbWgw~95hpAD5m5isqcJTMnWmtBrgY0z~Xfap05HQD~1jNB0~iZWiEkShUL6EDu39idk7Eh2P0eoQHFwYWfg9FlpMFaGfqPdEKDKd4E4JHySR9JNtB8y~N89tiVIl8hJ5OgTMR-sBjdYwPhcc0oHXGY5eSDJP0CjHv5gz6KvPap-3oQuIpELViEDdFFkyQt5pMt86sIN1O3vyQjO3SYZIrZXy9~cEOjLrSuZV7PCJy3H5cGmJBwHMDq2OG5eLnWGtZ794Ge5FNdnRgkQQOB33jBmXf8JtuWh7It9H2XJKB9iR67aWVxsPtBg__" alt="VR Man" width={300} height={400} className={`img-fluid custom-image vr-img-men`}
+                  <Image src="https://s3-alpha-sig.figma.com/img/8d9b/d3f1/f8ad05cd104252f2839a63484815876b?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iE6HmrQeGpIWojNce3wQnQqFp7zzqxdbWgw~95hpAD5m5isqcJTMnWmtBrgY0z~Xfap05HQD~1jNB0~iZWiEkShUL6EDu39idk7Eh2P0eoQHFwYWfg9FlpMFaGfqPdEKDKd4E4JHySR9JNtB8y~N89tiVIl8hJ5OgTMR-sBjdYwPhcc0oHXGY5eSDJP0CjHv5gz6KvPap-3oQuIpELViEDdFFkyQt5pMt86sIN1O3vyQjO3SYZIrZXy9~cEOjLrSuZV7PCJy3H5cGmJBwHMDq2OG5eLnWGtZ794Ge5FNdnRgkQQOB33jBmXf8JtuWh7It9H2XJKB9iR67aWVxsPtBg__" alt="VR Man" width={300} height={400} className={`img-fluid custom-image vr-img-men `}
                   />
                   <div className=' mx-auto flex flex-column p-2 align-items-start  text-start  mt-md-5 responsive-width-vr d-none d-md-flex ' >
                     <h2 className="fw-bold fs-4 text-uppercase mt-md-3">New Experience In Playing Game</h2>
